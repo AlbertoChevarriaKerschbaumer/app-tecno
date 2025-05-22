@@ -1,0 +1,7 @@
+{
+  "name": "app_tecno",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
