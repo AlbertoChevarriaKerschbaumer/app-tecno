@@ -3,11 +3,11 @@ import { RouterLink } from '@angular/router';
 import { IonButton, IonItem, IonLabel, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/angular/standalone';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: 'app-programas',
+  templateUrl: 'programas.page.html',
+  styleUrls: ['programas.page.scss'],
   imports: [IonButton, IonItem, IonLabel, IonHeader, IonToolbar, IonTitle, IonContent, RouterLink],
 })
-export class HomePage {
+export class ProgramasPage {
   constructor() {}
 }

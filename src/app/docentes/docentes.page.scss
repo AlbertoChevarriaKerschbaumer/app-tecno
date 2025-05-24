@@ -29,7 +29,7 @@
 .p1 {
   font-size: 16px;
   line-height: 22px;
-  color: #ff0000;
+  color: #f50202;
   text-align: center;
  
 }
@@ -41,29 +41,14 @@ ion-title {
   font-weight: bold;
   background-color: #072ac8;
 }
-ion-content {
-  background-color: #540f0f;
-  text-align: center;
-
-}
 ion-item {
-  background-color: #c9f3ba;
+  background-color: #10100f;
   color: #ffffff;
   border-radius: 10px;
   font-size: 16px;
   text-align: center;
   align-items: center;
 }
-
-ion-button, a {
-  width: 100%;
+ion-button {
+  width:100%;
 }
-div {
-  width: 100%;
-  align-items: start;
-}
-table{
-  margin:0px;
-  padding:0px;
-  align-items: start;
-  }
