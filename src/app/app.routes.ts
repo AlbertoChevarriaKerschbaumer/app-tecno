@@ -7,7 +7,7 @@ export const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'tab',
     pathMatch: 'full',
   },
   {
@@ -49,5 +49,9 @@ export const routes: Routes = [
   {
     path: 'matricula',
     loadComponent: () => import('./matricula/matricula.page').then( m => m.MatriculaPage)
-  },  
+  },   {
+    path: 'tab',
+    loadComponent: () => import('./tab/tab.page').then( m => m.TabPage)
+  },
+ 
 ];
